@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wraper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+header {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	font: 4em arial black;
+}
+
+header div {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.block {
+	height: 100px;
+	width: 100px;
+}
+
+#red {
+	background-color: red;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#green {
+	background-color: green;
+}
+
+#gray {
+	background-color: gray;
+}
+
+#purple {
+	background-color: purple;
+}
+
+#orange {
+	background-color: orange;
+}
